@@ -1,0 +1,15 @@
+body{
+    background-image: url("Assets/images/crystal-background.jpg");
+}
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.crystal{
+    display: inline-block;
+    margin: auto;
+    height: 150px;
+}

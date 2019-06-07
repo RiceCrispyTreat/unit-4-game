@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal collector</title>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type= "text/css" href="style.css">
+  
+</head>
+<body>
+    <div>
+        <h1>Crystal Collector</h1>
+    </div>
+    <div id="instructions">
+        <p>There will be a random number at the start of the game</p>
+        
+        <p>Pick a crystal. By choosing that crystal you will add that amount of point to your score</p>
+
+        <p>You win the game by matching the total score of the random number. You lose if you go over the hidden number</p>
+        
+        <p>The score of the crystal is hidden until you click on it.</p>
+        
+        <p>The game changes the number everytime it starts</p>
+        
+    </div>
+   
+    
+    <div id="Crystals">
+        
+       
+        <img id="purpleDiamond" class="crystal" src="Assets/images/purple crystal.jpg">
+        <img id="tealDiamond" class="crystal" src="Assets/images/teal crystal.jpeg">
+        <img id="yellowDiamond" class="crystal" src="Assets/images/yellow crystal.jpg">
+        <img id="greenDiamond" class="crystal" src="Assets/images/green crystal.jpg">
+        
+    
+    
+    </div>
+    
+    
+    <div class="score">
+        <h2 id="n">Guess the number: <span id="targetScore"></span></h2>
+        <h3 id="p">Players Score: <span id="playerScore"></span></h3>
+
+        
+        
+        
+        <div id="winsLossesDisplay">
+            <h3>Wins: <span id="win"></span></h3><br>
+            <h4>Losses: <span id="loss"></span></h4><br>
+            
+        </div>
+        
+    </body>
+    
+    
+    
+    
+    <script type="text/javascript" src="game.js"></script>
+    
+    </html>
